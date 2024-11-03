@@ -1,5 +1,6 @@
 import streamlit as st
 import pickle
+import pandas as pd
 
 # Define a function to load the data from GitHub
 @st.cache_data  # Cache the data to avoid re-downloading
